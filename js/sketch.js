@@ -1,4 +1,4 @@
-import  fragmentShader  from 'FlameCirclShade/shaders/fragment.js';
+import  fragmentShader  from '/shaders/fragment.js';
 function main() {
     const canvas = document.querySelector('#c');
     const renderer = new THREE.WebGLRenderer({ canvas });
